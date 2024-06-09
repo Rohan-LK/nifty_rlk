@@ -122,7 +122,6 @@ def save_dfs_to_excel(df_inp, file_name, sheet_name_inp):
 #             df.to_excel(writer, sheet_name=sheet_name_inp, startrow=i * (len(df) + 2))
 
 
-
 def highlights(sheet_name_1):
     wb = openpyxl.load_workbook("multiple_dfs.xlsx")
     ws = wb[sheet_name_1]
